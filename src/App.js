@@ -7,7 +7,6 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="New York"/>
-      </div>
       <footer>
         This project was coded by{" "}
           <a
@@ -34,6 +33,7 @@ export default function App() {
             hosted on Netlify
           </a>
         </footer>
+        </div>
     </div>
   );
 }
