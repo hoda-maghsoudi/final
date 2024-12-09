@@ -8,6 +8,32 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="New York"/>
       </div>
+      <footer>
+        This project was coded by{" "}
+          <a
+            href="https://www.delac.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Hoda Maghsoudi
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/hoda-maghsoudi/final"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://remarkable-zuccutto-1e2a0d.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
+          </a>
+        </footer>
     </div>
   );
 }
