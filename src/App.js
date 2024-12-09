@@ -8,15 +8,7 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="New York"/>
       <footer>
-        This project was coded by{" "}
-          <a
-            href="https://www.delac.io/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Hoda Maghsoudi
-          </a>{" "}
-          and is{" "}
+        This project was coded by Hoda Maghsoudi and is
           <a
             href="https://github.com/hoda-maghsoudi/final"
             target="_blank"
